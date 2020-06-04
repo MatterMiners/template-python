@@ -12,3 +12,7 @@ repos:
     -   id: black
         args:
         -   --py36
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.2
+    hooks:
+      - id: flake8
